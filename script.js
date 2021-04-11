@@ -13,6 +13,8 @@ btn_scroll.forEach (btn => {
             top: gingTo_href.offsetTop - 50,
             behavior: 'smooth'
         });
+        
+        // scroll-behavior: smooth;
 
         // offsetTop -> menentukan jarak elmen window dari atas ke elemen html
         console.log(gingTo_href.offsetTop); 
