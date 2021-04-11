@@ -6,6 +6,10 @@
     font-weight: lighter;
 }
 
+/* html {
+    scroll-behavior: smooth;
+} */
+
 a {
     text-decoration: none;
     color: rgb(65, 63, 62);
