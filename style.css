@@ -3,7 +3,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-weight: lighter;
 }
 
 /* html {
@@ -12,7 +11,6 @@
 
 a {
     text-decoration: none;
-    color: rgb(65, 63, 62);
     transition: 0.8s;
 }
 
@@ -24,7 +22,7 @@ nav {
     margin: 0;
     padding: 0.8em;
     background-color: steelblue;
-    border-bottom: 1px solid rgba(34, 248, 220, 0.959);
+    border-bottom: 1px solid gainsboro;
     position: fixed;
     width: 100%;
 }
@@ -42,29 +40,29 @@ nav .navbar a {
 }
 
 nav .navbar a:hover {
-    color: rgb(255, 255, 255);
-    transition: 0.8s;
+    color: white;
 }
 
-.city {
+.object {
     min-height: 750px;
     padding: 2em;
-    border-bottom: 1px solid rgba(156, 199, 193, 0.959);
+    border-bottom: 1px solid steelblue;
     text-align: center;
 }
 
-.city h1 {
+.object h1 {
     font-style: italic;
     margin-bottom: 6px;
 }
 
-.city img {
+.object img {
     width: 640px;
     height: 440px;
-    border: 2px solid rgba(169, 233, 222, 0.287);
+    border: 2px solid rgb(151, 191, 224);
     border-radius: 4px;
 }
 
 #alone {
     padding-top: 5em;
 }
+
